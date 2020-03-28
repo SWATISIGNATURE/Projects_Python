@@ -1,2 +1,2 @@
-# Projects_Python
+# Python
 All Python related practice are done here
