@@ -1,3 +1,12 @@
+"""In case of array/python list : both are linear order, individual element can be accessed very easily.
+Binary search can be used on both if they are sorted.
+But the disdvantage is that all elements have to be shifted to add an element in between and also to close the gap in case of deletion.
+This can be time consuming and memory inefficient for large sequences.
+Also Arrays are fixed in length. Lists are also internally python arrays. For large arrays blocking this big array can be really difficult.
+
+Now comes Linked List : these are also linear, smaller memory allocations and no elements shifting in case of insert/delete.
+But in case of search a particular element it has to traverse the entire LL."""
+
 class Node:
     def __init__(self, value, next_node=None):
         self.value = value
