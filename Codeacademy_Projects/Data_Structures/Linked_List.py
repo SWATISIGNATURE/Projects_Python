@@ -5,8 +5,14 @@ This can be time consuming and memory inefficient for large sequences.
 Also Arrays are fixed in length. Lists are also internally python arrays. For large arrays blocking this big array can be really difficult.
 
 Now comes Linked List : these are also linear, smaller memory allocations and no elements shifting in case of insert/delete.
-But in case of search a particular element it has to traverse the entire LL."""
+But in case of search a particular element it has to traverse the entire LL.
+When we add element in a python list its worst case is O(n) coz actually it creates a new array of length() + 1 but in LL its dynamic.
 
+When to use LL: when there is dynamic data, large number of inserts/deletes.
+When to prefer lists: when accessing element by index i.e O(1)"""
+
+# Basic element in any datastructure is Node. Hence creating a node class. Each node must have a data and atleast one link to point to the next element.
+# But in case of a single node(Orphan Node) or end of the DS next node may not exist so we set next_node link = None for covering all cases.
 class Node:
     def __init__(self, value, next_node=None):
         self.value = value
@@ -21,6 +27,13 @@ class Node:
     def set_next_node(self, next_node):
         self.next_node = next_node
 
+# Now creating a Linked list class using Node class to create the basic structure.
+# Every LL starts with a head_node or ROOT and ends with the Tail Node with null link or no next node.
+# if a Linked list is empty => head_node = None
+# LL traversal : O(n)
+# LL searching a node: O(n)
+# LL Inserting element at beginning : O(1)
+# LL Removing a Node : O(n)
 
 class LinkedList:
     def __init__(self, value=None):
