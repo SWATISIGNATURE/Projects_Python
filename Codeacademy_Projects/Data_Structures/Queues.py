@@ -7,7 +7,11 @@ Queues:
     5. Peek - reveals data from the “front” of the queue without removing it
     6. Similar to stacks, attempting to enqueue data onto an already full queue will result in a queue overflow
     7. Attempt to dequeue data from an empty queue, it will result in a queue underflow.
-    8. Can be implemented using a linked list or array
+    8. Can be implemented using a linked list or array or vectors
+    size & empty check & peek: O(1)
+    enqueue/dequeue : O(n) 
+
+Applications: computer simulations, CPU process scheduling, shared printer management
 """
 from node import Node
 
