@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="439958ec-2a11-4471-9ffe-39f948c18f5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Codeacademy_Projects/Blossoms_HashMap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeacademy_Projects/Data_Structures/Trees.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codeacademy_Projects/Wilderness_Escape_Trees.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
