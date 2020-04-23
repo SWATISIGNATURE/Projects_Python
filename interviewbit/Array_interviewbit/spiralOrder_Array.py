@@ -48,8 +48,12 @@ class Solution:
 #     [ 4, 5, 6 ],
 #     [ 7, 8, 9 ]
 # ]
+# exp = [1,2,3,6,9,8,7,4,5]
 
 # To call the function to get the output using Solution class directly
 # sol = Solution()
-# print(sol.spiralOrder(A))
+#res = sol.spiralOrder(A)
+# print(res)
+
+#assert res == exp: "passed"
 
